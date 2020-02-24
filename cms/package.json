@@ -1,0 +1,29 @@
+{
+  "name": "myfeed",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Jack Herrington <jherrington@walmartlabs.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "test": "sanity check"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^1.148.5",
+    "@sanity/components": "^1.148.5",
+    "@sanity/core": "^1.148.5",
+    "@sanity/default-layout": "^1.148.5",
+    "@sanity/default-login": "^1.148.1",
+    "@sanity/desk-tool": "^1.148.6",
+    "@sanity/vision": "^1.148.1",
+    "prop-types": "^15.6",
+    "react": "^16.2",
+    "react-dom": "^16.2"
+  },
+  "devDependencies": {}
+}
