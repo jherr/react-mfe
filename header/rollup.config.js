@@ -20,7 +20,8 @@ export default {
       exclude: "node_modules/**"
     }),
     externalGlobals({
-      react: "window.React"
+      react: 'window.React',
+      'material-ui': 'window.MaterialUI'
     }),
     resolve(),
     (NODE_ENV !== 'production' && serve({

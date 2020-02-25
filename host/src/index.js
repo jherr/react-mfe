@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
+import { Container, Typography, Button } from 'material-ui';
 
 const App = () => {
   const [components, setComponents] = useState({});
@@ -15,15 +16,13 @@ const App = () => {
   };
 
   return (
-    <div>
+    <Container fixed>
       {components.Header ? <components.Header count={count} /> : null}
-      <div>
+      <Typography>
         Hi there, I'm React from React.
-      </div>
-      <div>
-        <button onClick={addToCart}>Add to cart</button>
-      </div>
-    </div>
+      </Typography>
+      <Button onClick={addToCart}>Add to cart</Button>
+    </Container>
   );
 }
 

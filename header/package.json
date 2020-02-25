@@ -18,6 +18,7 @@
     "rollup-plugin-serve": "^1.0.1"
   },
   "dependencies": {
+    "material-ui": "^0.20.2",
     "react": "^16.12.0"
   }
 }
