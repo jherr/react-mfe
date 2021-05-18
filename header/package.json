@@ -15,7 +15,7 @@
     "rollup-plugin-external-globals": "^0.5.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-replace": "^2.2.0",
-    "rollup-plugin-serve": "^1.0.1"
+    "rollup-plugin-serve": "^1.0.2"
   },
   "dependencies": {
     "material-ui": "^0.20.2",
